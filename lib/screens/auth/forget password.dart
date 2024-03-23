@@ -1,15 +1,16 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Constants/firebase%20constants.dart';
+import 'package:flutter_application_1/Constants/swipper.dart';
+import 'package:flutter_application_1/Widget/Auth%20btn.dart';
+import 'package:flutter_application_1/Widget/back%20widget.dart';
+import 'package:flutter_application_1/Widget/text_widget.dart';
+import 'package:flutter_application_1/screens/loading%20manager.dart';
+import 'package:flutter_application_1/servecis/global%20method.dart';
+import 'package:flutter_application_1/servecis/utils.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:vegetables_app/Constants/firebase%20constants.dart';
-import 'package:vegetables_app/Constants/swipper.dart';
-import 'package:vegetables_app/Widget/Auth%20btn.dart';
-import 'package:vegetables_app/Widget/back%20widget.dart';
-import 'package:vegetables_app/Widget/text_widget.dart';
-import 'package:vegetables_app/screens/loading%20manager.dart';
-import 'package:vegetables_app/servecis/global%20method.dart';
-import 'package:vegetables_app/servecis/utils.dart';
+
 
 
 class ForgetPasswordScreen extends StatefulWidget {

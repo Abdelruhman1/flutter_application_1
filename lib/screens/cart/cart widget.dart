@@ -2,16 +2,17 @@ import 'package:fancy_shimmer_image/fancy_shimmer_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_application_1/Inner%20Screens/Product%20Details.dart';
+import 'package:flutter_application_1/Models/cart_model.dart';
+import 'package:flutter_application_1/Widget/heart_btn.dart';
+import 'package:flutter_application_1/Widget/text_widget.dart';
+import 'package:flutter_application_1/provider/cart%20provider.dart';
+import 'package:flutter_application_1/provider/products_provider.dart';
+import 'package:flutter_application_1/provider/wishlist%20provider.dart';
+import 'package:flutter_application_1/servecis/utils.dart';
 
 import 'package:provider/provider.dart';
-import 'package:vegetables_app/Inner%20Screens/Product%20Details.dart';
-import 'package:vegetables_app/Models/cart_model.dart';
-import 'package:vegetables_app/Widget/heart_btn.dart';
-import 'package:vegetables_app/Widget/text_widget.dart';
-import 'package:vegetables_app/provider/cart%20provider.dart';
-import 'package:vegetables_app/provider/products_provider.dart';
-import 'package:vegetables_app/provider/wishlist%20provider.dart';
-import 'package:vegetables_app/servecis/utils.dart';
+
 
 class CartWidget extends StatefulWidget {
   const CartWidget({Key? key, required this.q}) : super(key: key);

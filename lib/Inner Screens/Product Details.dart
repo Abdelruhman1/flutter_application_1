@@ -3,18 +3,19 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_application_1/Constants/firebase%20constants.dart';
+import 'package:flutter_application_1/Widget/heart_btn.dart';
+import 'package:flutter_application_1/Widget/text_widget.dart';
+import 'package:flutter_application_1/provider/Viewed%20provider.dart';
+import 'package:flutter_application_1/provider/cart%20provider.dart';
+import 'package:flutter_application_1/provider/products_provider.dart';
+import 'package:flutter_application_1/provider/wishlist%20provider.dart';
+import 'package:flutter_application_1/servecis/global%20method.dart';
+import 'package:flutter_application_1/servecis/utils.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
-
 import 'package:provider/provider.dart';
-import 'package:vegetables_app/Constants/firebase%20constants.dart';
-import 'package:vegetables_app/Widget/heart_btn.dart';
-import 'package:vegetables_app/Widget/text_widget.dart';
-import 'package:vegetables_app/provider/Viewed%20provider.dart';
-import 'package:vegetables_app/provider/cart%20provider.dart';
-import 'package:vegetables_app/provider/products_provider.dart';
-import 'package:vegetables_app/provider/wishlist%20provider.dart';
-import 'package:vegetables_app/servecis/global%20method.dart';
-import 'package:vegetables_app/servecis/utils.dart';
+
+
 
 class Product_Details extends StatefulWidget {
   static const routename='/Product_Details';

@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_application_1/Models/Product_model.dart';
+import 'package:flutter_application_1/Widget/back%20widget.dart';
+import 'package:flutter_application_1/Widget/empty%20product.dart';
+import 'package:flutter_application_1/Widget/feed_item.dart';
+import 'package:flutter_application_1/Widget/text_widget.dart';
+import 'package:flutter_application_1/provider/products_provider.dart';
+import 'package:flutter_application_1/servecis/utils.dart';
 import 'package:provider/provider.dart';
-import 'package:vegetables_app/Models/Product_model.dart';
-import 'package:vegetables_app/Widget/back%20widget.dart';
-import 'package:vegetables_app/Widget/empty%20product.dart';
-import 'package:vegetables_app/Widget/feed_item.dart';
-import 'package:vegetables_app/Widget/text_widget.dart';
-import 'package:vegetables_app/provider/products_provider.dart';
-import 'package:vegetables_app/servecis/utils.dart';
+
+
 class FeedsScreen extends StatefulWidget {
   static const routeName = "/FeedsScreenState";
   const FeedsScreen({Key? key}) : super(key: key);
